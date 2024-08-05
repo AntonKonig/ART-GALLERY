@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onclick="PlayAudio()">
+    <main>
+        <ul class='slider'>
+          <li class='item' style="background-image: url('https://i.pinimg.com/originals/2a/3b/28/2a3b285f1e1b9d83768a48b21d7a3789.jpg')">
+            <div class='content'>
+              <h2 class='title'>"girasol"</h2>
+              <p class='description'> Como los girasoles iluminan la obra maestra de Van Gogh. Tu presencia, como el suave trazo de un artista enamorado, embellece con ternura cada rincón de la vida, recordándonos que la verdadera belleza reside en el amor que compartimos y que despierta en nosotros.  </p>
+              
+            </div>
+          </li>
+          <li class='item' style="background-image: url('https://i.pinimg.com/474x/aa/d3/51/aad35145ae5c05f1f44b4102dc616d7c.jpg')">
+            <div class='content'>
+              <h2 class='title'>"abrásame entre flores"</h2>
+              <p class='description'> La luz suave que ilumina la escena evoca calidez y paz, envolviendo a la pareja en un aura de complicidad y afecto. Este sencillo gesto de amor verdadero, un lazo indestructible que perdura a través de los desafíos y las alegrías de la vida.  </p>
+              
+            </div>
+          </li>
+          <li class='item' style="background-image: url('https://i0.wp.com/img.culturacolectiva.com/content/2016/11/trigal-con-amapolas-y-alondra.jpg?ssl=1')">
+            <div class='content'>
+              <h2 class='title'>"mi hermoso horizonte"</h2>
+              <p class='description'> Eres mi cielo despejado, donde las nubes acarician suavemente el azul y el sol siempre brilla con esperanza. Te quiero con la intensidad de cada color en este cuadro y con la inmensidad de ese horizonte que siempre me invita a soñar.  </p>
+              
+            </div>
+          </li>
+          <li class='item' style="background-image: url(https://i0.wp.com/img.culturacolectiva.com/content/2016/11/paisaje-marino-en-saintes-maries.jpg?ssl=1)">
+            <div class='content'>
+              <h2 class='title'>"mar adentro del corazón"</h2>
+              <p class='description'>
+                El mar puede ser vasto e impredecible, pero contigo como mi brújula, nada me da miedo. Siento que nuestro amor es la vela que nos impulsa, es el ancla que nos mantiene firmes y el faro que siempre nos guía de vuelta a casa, a nuestros corazones.
+              </p>
+              
+            </div>
+          </li>
+          <li class='item' style="background-image: url('https://i0.wp.com/img.culturacolectiva.com/content/2016/11/la-noche-estrellada.jpg?ssl=1')">
+            <div class='content'>
+              <h2 class='title'>"paz"</h2>
+              <p class='description'>
+                Dentro de tus ojos florecieran constelaciones, radiando una calidez que ilumina el sendero de mi alma. En la quietud de la noche, tus ojos me hablan con un lenguaje que va más allá de las palabras, y es allí donde encuentro la paz.
+              </p>
+              
+            </div>
+          </li>
+          <li class='item' style="background-image: url('https://i.pinimg.com/originals/8f/51/1d/8f511df26924257788fb7a347421005c.jpg')">
+            <div class='content'>
+              <h2 class='title'>"te amo"</h2>
+              <p class='description'> Cada detalle tuyo, desde la expresión de tus ojos hasta el suave timbre de tu voz, es como una pincelada perfecta en el lienzo de mi vida. Mi fuente inagotable de inspiración, la razón por la que mi corazón late con tanta pasión. En ti veo la belleza de lo sublime, lo intocable. Prometo amarte con la intensidad de mil soles, con la profundidad de los océanos más profundos, cuidarte como la bella y delicada flor de mi vida.  </p>
+              
+            </div>
+          </li>
+        </ul>
+        <nav class='nav'>
+          <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
+          <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
+        </nav>
+      </main>
+      
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      <script src="main.js"></script>
+
+     <audio id="musica1" loop>
+        <source src="audio/m1.mp3" type="audio/mpeg">
+     </audio>
+    </section>
+     <script>
+        function PlayAudio(){
+            document.getElementById("musica1").play();
+        }
+     </script>
+</body>
+</html>
